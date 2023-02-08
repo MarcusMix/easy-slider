@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>A simples Carousel slider with React + TypeScript</h1>
+      <h1>A simple Carousel slider with React + TypeScript</h1>
       <motion.div 
         ref={carousel} 
         className='carousel' 
@@ -66,6 +66,7 @@ function App() {
             })}
           </motion.div>
       </motion.div>
+      <h1>slider -> </h1>
     </div>
   )
 }
