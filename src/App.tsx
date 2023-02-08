@@ -9,6 +9,9 @@ import images from './images'
 //hooks
 import { useEffect, useRef, useState } from 'react'
 
+//icons
+import { AiOutlineDoubleRight, AiOutlineDoubleLeft } from 'react-icons/ai'
+
 function App() {
   
   const [width, setWidth] = useState<any>()
@@ -66,7 +69,7 @@ function App() {
             })}
           </motion.div>
       </motion.div>
-      <h1>slider -> </h1>
+      <h1> <AiOutlineDoubleLeft/> slider <AiOutlineDoubleRight /> </h1>
     </div>
   )
 }

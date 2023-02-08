@@ -35,3 +35,7 @@ h1 {
 .carousel {
   overflow: hidden;
 }
+
+svg {
+  vertical-align: -18%;
+}
