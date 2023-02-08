@@ -47,6 +47,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>A simples Carousel slider with React + TypeScript</h1>
       <motion.div 
         ref={carousel} 
         className='carousel' 
@@ -59,7 +60,7 @@ function App() {
             {images.map((image) => {
               return (
                 <motion.div className='item' key={image}>
-                  <img src={image} alt="" />
+                  <img src={image} alt="image" />
                 </motion.div>
               )
             })}

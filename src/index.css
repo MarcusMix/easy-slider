@@ -4,20 +4,27 @@
 }
 
 body {
-  margin: 40px 20%;
+  margin: 40px 15%;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  color: #111111dc;
 }
 
 .item {
-  min-height: 20rem;
-  min-width: 15rem;
+  min-height: 30rem;
+  min-width: 20rem;
   padding: 40px;
 }
 
 .item img {
   width: 100%;
   height: 100%;
-  border-radius: 2rem;
+  border-radius: 1rem;
   pointer-events: none;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
 .inner-carousel {
